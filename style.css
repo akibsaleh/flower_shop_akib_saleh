@@ -36,6 +36,11 @@ section {
     display: flex;
 }
 
+.full_container {
+    width: 100%;
+    display: flex;
+}
+
 .primary_btn {
     border-width: 0px;
     background: #E55473;
@@ -111,6 +116,7 @@ section#featured_flowers .container {
 
 section#featured_flowers {
     padding-top: 178px;
+    padding-bottom: 128px;
 }
 
 .flower_set {
@@ -304,8 +310,22 @@ section#prommotion .container {
     flex-direction: row;
 }
 
-.products {
+.fixed_left, .fixed_right{
     width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fixed_left {
+    justify-content: end;
+}
+
+.fixed_right {
+    justify-content: flex-start;
+}
+
+.products {
+    width: 720px;
     display: flex;
     flex-direction: row;
     padding: 0 50px;
@@ -341,15 +361,17 @@ section#prommotion .container {
     color: #272727;
 }
 
-.promo_banner.right {
+.fixed_right {
     background-color: #a7216226;
     background-image: url("/assets/promobanner-pink.png");
-    background-position: center right 200px;
-    padding-left: 50px;
+    background-position: center right 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .promo_banner .deal_txt {
     text-align: left;
+    margin-left: 75px;
 }
 
 .promo_banner .deal_txt h2, .promo_banner .deal_txt p{
@@ -357,11 +379,11 @@ section#prommotion .container {
 }
 
 .promo_banner {
+    width: 720px;
     min-height: 600px;
     background-attachment: fixed;
     background-position: center right 200px;
     background-repeat: no-repeat;
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
