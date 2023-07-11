@@ -143,10 +143,40 @@ section#featured_flowers .featured_text p {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.flowers u {
+.flowers p {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
 }
 /* Featured Flowers */
+
+/* Services section */
+
+section#services {
+    padding: 128px 0;
+}
+
+section#services .container {
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 0 175px;
+    box-sizing: border-box;
+}
+
+section#services .info_box {
+    text-align: center;
+    padding: 86px 0px;
+}
+
+section#services .info_box p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #272727cc;
+    padding-top: 24px;
+
+}
+/* Services section */
