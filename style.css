@@ -296,6 +296,10 @@ footer .copyright{
 
 /* Promo Banner */
 
+section#prommotion {
+    background: #e6e6e6;
+}
+
 section#prommotion .container {
     flex-direction: row;
 }
@@ -304,7 +308,7 @@ section#prommotion .container {
     width: 50%;
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 0 50px;
     justify-content: center;
     column-gap: 30px;
 }
@@ -328,16 +332,17 @@ section#prommotion .container {
     font-size: 24px;
     padding-bottom: 5px;
     font-weight: 900;
+    color: #272727;
 }
 
 .single_product p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
-    color: #e55473;
+    color: #272727;
 }
 
 .promo_banner.right {
-    background-color: #D2CDCE;
+    background-color: #a7216226;
     background-image: url("/assets/promobanner-pink.png");
     background-position: center right 200px;
     padding-left: 50px;
@@ -352,7 +357,7 @@ section#prommotion .container {
 }
 
 .promo_banner {
-    min-height: 480px;
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center right 200px;
     background-repeat: no-repeat;
