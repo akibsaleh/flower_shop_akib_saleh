@@ -41,8 +41,32 @@ section {
     color: #ffffff;
 }
 
+.accent {
+    color: #E55473;
+}
+
 .center_txt {
     text-align: center;
+}
+
+.featured_text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.featured_text h2 {
+    padding-bottom: 24px;
+}
+
+.featured_text p {
+    padding-bottom: 48px;
+}
+
+.pad_128{
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 /* Banner */
@@ -80,24 +104,8 @@ section#featured_flowers .container {
     align-items: center;
 }
 
-section#featured_flowers .featured_text {
+section#featured_flowers {
     padding-top: 178px;
-    padding-bottom: 128px;
-}
-
-.featured_text h2 {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: normal;
-}
-
-section#featured_flowers .featured_text h2 {
-    padding-bottom: 24px;
-}
-
-section#featured_flowers .featured_text p {
-    padding-bottom: 48px;
 }
 
 .flower_set {
@@ -153,10 +161,6 @@ section#featured_flowers .featured_text p {
 
 /* Services section */
 
-section#services {
-    padding: 128px 0;
-}
-
 section#services .container {
     flex-direction: row;
     justify-content: space-between;
@@ -180,3 +184,106 @@ section#services .info_box p{
 
 }
 /* Services section */
+
+/* Deal section */
+
+section#hot_deal {
+    background: #e554730d;
+}
+
+section#hot_deal .container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.deal_txt {
+    max-width: 580px;
+    text-align: center;
+}
+
+.deal_txt h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.deal_txt p {
+    padding-bottom: 32px;
+}
+
+/* Deal section */
+
+/* Instagram */
+
+section#instagram .images {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+/* Instagram */
+
+/* Subscription */
+
+section#subscription .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 122px 0;
+    background: url("/assets/Rectangle 9.png") no-repeat;
+    background-size: contain;
+}
+
+section#subscription .featured_text h2{
+    padding-bottom: 16px;
+}
+
+form.subscription_form input[type="email"] {
+    width: 700px;
+    line-height: 0;
+    padding: 22px;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+}
+
+form.subscription_form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    width: 100%;
+}
+
+
+/* Subscription */
+
+/* footer */
+
+footer {
+    background: #111010;
+    margin-top: 128px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 24px;
+
+}
+
+footer p {
+    color: #ffffff;
+    padding-bottom: 32px;
+}
+
+footer .copyright{
+    color: #ffffff66;
+}
+/* footer */
